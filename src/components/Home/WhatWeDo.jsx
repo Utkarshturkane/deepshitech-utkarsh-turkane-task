@@ -144,7 +144,8 @@ function WhatWeDo() {
                 {item.data}
               </div>
 
-              <BsArrowRightCircleFill className="text-[#FFFFFF66] mt-5 group-hover:text-[#C78C24] group-hover:scale-250 duration-300" />
+              <BsArrowRightCircleFill className="text-[#FFFFFF66] mt-5 lg:block hidden group-hover:text-[#C78C24] group-hover:scale-250 duration-300" />
+              <BsArrowRightCircleFill className="text-[#C78C24] mt-5 lg:hidden block scale-150" />
             </motion.div>
           );
         })}
