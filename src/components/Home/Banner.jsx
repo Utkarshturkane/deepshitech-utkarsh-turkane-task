@@ -7,7 +7,7 @@ function Banner() {
   const rotate = useTransform(scrollY, [0, 2000], [0, 360]);
 
   return (
-    <div className="lg:pt-[120px] pt-[80px] pb-[30px] bg-black text-[#FFFFFFE6] h-[100vh] w-[100%] px-[30px] lg:px-0">
+    <div className="lg:pt-[120px] lg:pb-[120px] pt-[80px] pb-[30px] bg-black text-[#FFFFFFE6] h-[100vh] w-[100%] px-[30px] lg:px-0">
       <div className="mx-auto lg:w-[70%] w-[100%]">
         <div className=" lg:text-[72px] text-[30px] font-extralight banner-heading lg:leading-[90px]">
           <span className="font-normal">Designing</span> a Better <br />
