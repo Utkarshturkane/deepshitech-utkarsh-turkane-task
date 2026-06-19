@@ -65,14 +65,14 @@ function Testimonials() {
   ];
 
   const logos = [
-    { imgUrl: "/public/images/logos/40.svg" },
-    { imgUrl: "/public/images/logos/50.svg" },
-    { imgUrl: "/public/images/logos/9.svg" },
-    { imgUrl: "/public/images/logos/60.svg" },
-    { imgUrl: "/public/images/logos/5.svg" },
-    { imgUrl: "/public/images/logos/7.svg" },
-    { imgUrl: "/public/images/logos/10.svg" },
-    { imgUrl: "/public/images/logos/11.svg" },
+    { imgUrl: "/images/logos/40.svg" },
+    { imgUrl: "/images/logos/50.svg" },
+    { imgUrl: "/images/logos/9.svg" },
+    { imgUrl: "/images/logos/60.svg" },
+    { imgUrl: "/images/logos/5.svg" },
+    { imgUrl: "/images/logos/7.svg" },
+    { imgUrl: "/images/logos/10.svg" },
+    { imgUrl: "/images/logos/11.svg" },
   ];
 
   return (

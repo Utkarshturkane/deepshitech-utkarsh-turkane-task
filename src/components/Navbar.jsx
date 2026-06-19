@@ -18,12 +18,12 @@ function Navbar() {
         <nav className="container mx-auto fixed lg:top-[8%] top-[0%] z-[12] left-0 right-0 flex justify-between items-center lg:p-0 p-3 border-b-gray-500 border-1 lg:border-0 lg:bg-transparent bg-black">
           <div className="logo-brand">
             <img
-              src="/public/images/logo.webp"
+              src="/images/logo.webp"
               className="w-[75px] h-[75px] hidden lg:block"
               alt=""
             />
             <img
-              src="/public/images/logo2.webp"
+              src="/images/logo2.webp"
               className="w-[250px] h-[45px] block lg:hidden"
               alt=""
             />
@@ -57,12 +57,12 @@ function Navbar() {
                       <nav className="container mx-auto fixed lg:top-[8%] top-[0%] z-[12] left-0 right-0 flex justify-between items-center lg:p-0 p-3  border-b-gray-500 border-1 lg:border-0 ">
                         <div className="logo-brand">
                           <img
-                            src="/public/images/logo.webp"
+                            src="/images/logo.webp"
                             className="w-[75px] h-[75px] hidden lg:block"
                             alt=""
                           />
                           <img
-                            src="/public/images/logo2.webp"
+                            src="/images/logo2.webp"
                             className="w-[250px] h-[45px] block lg:hidden"
                             alt=""
                           />

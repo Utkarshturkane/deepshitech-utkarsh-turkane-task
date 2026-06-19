@@ -14,7 +14,7 @@ function Footer() {
           <div className="">
             <div className="logo-footer mb-[30px]">
               <img
-                src="/public/images/logo2.webp"
+                src="/images/logo2.webp"
                 className="w-[250px] h-[50px]"
                 alt=""
               />

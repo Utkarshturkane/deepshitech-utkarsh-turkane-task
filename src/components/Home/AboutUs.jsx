@@ -65,7 +65,7 @@ function AboutUs() {
         <div className="flex justify-between items-center mt-3 lg:gap-8 gap-3">
           <div className="relative basis-1/4">
             <img
-              src="/public/images/2.webp"
+              src="/images/2.webp"
               className="rounded-[50%] lg:w-[90px] w-[80px] lg:h-[90px] h-[70px] object-cover object-top"
               alt=""
             />
@@ -155,7 +155,7 @@ function AboutUs() {
           />
         </svg>
         <div className="lg:mt-[390px] mt-[0px] relative z-1">
-          <img src="/public/images/12.gif" className="w-[100%]" alt="" />
+          <img src="/images/12.gif" className="w-[100%]" alt="" />
         </div>
       </div>
     </div>

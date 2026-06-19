@@ -3,7 +3,7 @@ import Button from "../Button";
 function Blogs() {
   const blogsData = [
     {
-      imgUrl: "/public/images/blog.webp",
+      imgUrl: "/images/blog.webp",
       blogTitle: "Digital Marketing Trends",
       blogsTime: "13 Jul 2024 13:25:33",
       blogsheading:
@@ -157,7 +157,7 @@ function Blogs() {
           open rates for flash sales and reminders. Content Platforms: M…`,
     },
     {
-      imgUrl: "/public/images/blog2.webp",
+      imgUrl: "/images/blog2.webp",
       blogTitle: "SEO Strategies",
       blogsTime: "13 Jul 2024 13:46:04",
       blogsheading: "Why Local SEO Matters More Than Ever in 2025?",

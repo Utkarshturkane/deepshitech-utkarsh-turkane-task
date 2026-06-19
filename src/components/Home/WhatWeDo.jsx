@@ -84,7 +84,7 @@ function WhatWeDo() {
         <div className="flex justify-center items-center">
           <span className="w-[250px] h-[80px] rounded-[70px] inline-block overflow-hidden mr-5">
             <img
-              src="/public/images/people.webp"
+              src="/images/people.webp"
               className="w-[100%] h-[100%] object-cover object-top rounded-[70px] hover:scale-120 transition-all duration-300"
               alt=""
             />
