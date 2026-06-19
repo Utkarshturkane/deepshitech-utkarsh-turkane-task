@@ -82,7 +82,7 @@ function Navbar() {
                       {menuItems.map((item) => {
                         return (
                           <li
-                            className={`text-[34px] font-normal mb-3 hover:translate-x-5 duration-300 ease-in-out`}
+                            className={`lg:text-[34px] text-[20px] font-normal mb-3 hover:translate-x-5 duration-300 ease-in-out`}
                             onClick={() => setOpen(false)}
                           >
                             <NavLink to={item.to}>{item.text}</NavLink>
