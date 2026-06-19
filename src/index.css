@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Outfit-Medium';
+    src: url('../public/fonts/Outfit/Outfit-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Thin';
+    src: url('../public/fonts/Outfit/Outfit-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url('../public/fonts/Outfit/Outfit-Regular.ttf');
+}
+
+.linksitems .active {
+    color: #C78C24;
+    font-weight: bold;
+}
+
+.banner-heading span {
+    font-family: 'Outfit-Medium';
+}
+
+.banner-heading {
+    font-family: 'Outfit-Thin';
+}
+
+.banner-button {
+    font-family: 'Outfit-Medium';
+}
+
+.aboutus-heading {
+    font-family: 'Outfit-Medium';
+
+}
+
+.aboutus-heading span {
+    font-family: 'Outfit-Thin';
+}
+
+.content-aboutus h6 {
+    font-family: 'Outfit-Medium';
+}
+
+.content-aboutus p {
+    font-family: 'Outfit-Regular'
+}
+
+.passionately {
+    font-family: 'Outfit-Regular'
+
+}
+
+.whatwedo-title {
+    font-family: 'Outfit-Thin'
+}
+
+.whatwedo-title span {
+    font-family: 'Outfit-Regular'
+
+}
+
+.product-name {
+    font-family: 'Outfit-Regular'
+}
+
+.proudct-description {
+    font-family: 'Outfit-Thin'
+
+}
+
+.ourteam-heading {
+    font-family: 'Outfit-Regular'
+}
+
+.tag-line {
+    font-family: 'Outfit-Thin'
+}
+
+.tag-line span {
+    font-family: 'Outfit-Regular'
+}
+
+.testimonial-heading {
+    font-family: 'Outfit-Medium'
+}
+
+.testimonial-heading span {
+    font-family: 'Outfit-Thin'
+}
+
+.thumbSwiper .swiper-slide {
+    width: fit-content !important;
+}
+
+.testamonial-review {
+    font-family: 'Outfit-Thin';
+
+}
+
+.thumbSwiper .swiper-wrapper {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 20px;
+}
+
+.thumbSwiper .swiper-wrapper .swiper-slide:nth-child(2n) {
+    margin-top: 50px;
+}
+
+.thumbSwiper .swiper-wrapper .swiper-slide {
+    outline: 4px solid transparent;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.thumbSwiper .swiper-wrapper .swiper-slide-thumb-active {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    outline: 4px solid #C78C24;
+    transition: all 1s;
+}
+
+.blog-heading {
+    font-family: 'Outfit-Regular'
+}
+
+.blogs-title-container {
+    font-family: 'Outfit-Medium'
+
+}
+
+.blogs-bottom-heading {
+
+    font-family: 'Outfit-Regular'
+}
+
+.contact-heading span {
+    font-family: 'Outfit-Regular'
+}
+
+.contact-heading {
+    font-family: 'Outfit-Thin'
+}
+
+.contact-form input::placeholder {
+    color: #00000099;
+    font-family: 'Outfit-Regular';
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.contact-form textarea::placeholder {
+    color: #00000099;
+    font-family: 'Outfit-Regular';
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.contact-form input {
+    font-family: 'Outfit-Regular';
+
+}
+
+#newsemail::placeholder {
+    color: #ffffff86;
+    font-size: 12px;
+    font-family: 'Outfit-Regular';
+    letter-spacing: 2px;
+}
+
+#newsemail:focus::placeholder {
+    color: #000;
+}
+
+#newsemail:hover::placeholder {
+    color: #000;
+}
+
+.newsemailcontainer button svg {
+    background-color: #C78C24;
+}
+
+.newsemailcontainer button svg path {
+    fill: #000 !important;
+    color: #000 !important;
+}
+
+.pages-link {
+    font-family: 'Outfit-Medium';
+
+}
+
+.pages-link .active {
+    color: #C78C24;
+}
+
+.location-india p {
+    font-family: 'Outfit-Medium';
+
+}
+
+.location-india h4 {
+
+    font-family: 'Outfit-Medium';
+}
+
+.location-outside p {
+    font-family: 'Outfit-Medium';
+
+}
+
+.location-outside h4 {
+
+    font-family: 'Outfit-Medium';
+}
+
+.inner-pages {
+    font-family: 'Outfit-Medium';
+
+}
+
+@media (max-width: 768px) {
+    .thumbSwiper .swiper-wrapper {
+        flex-wrap: wrap;
+        margin-top: 1.2rem;
+    }
+
+
+    .thumbSwiper .swiper-wrapper .swiper-slide:nth-child(2n) {
+        margin-top: 0px;
+    }
+}
