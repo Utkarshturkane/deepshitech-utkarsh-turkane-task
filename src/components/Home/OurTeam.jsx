@@ -129,7 +129,7 @@ function OurTeam() {
           </svg>
           {teamMember.map((item, index) => {
             return (
-              <div className="relative">
+              <div className="relative flex justify-center lg:block lg:justify-normal">
                 {index == 1 ? (
                   <p className="text-[#00000080] text-[15px] mb-2 lg:block hidden">
                     {" "}

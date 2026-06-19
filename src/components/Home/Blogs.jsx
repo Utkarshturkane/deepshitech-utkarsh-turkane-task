@@ -250,7 +250,7 @@ That’s why reviews matter—especially local ones. Make it easy for happy cust
           Popular Publications:
         </div>
         <div className="flex justify-items-start w-[100%] lg:block lg:justify-end lg:size-fit">
-          <Button secondary className="text-black invert">
+          <Button secondary className="text-black invert ps-0 lg:ps-5">
             View All
           </Button>
         </div>
